@@ -1,8 +1,5 @@
 def my_hash_creator(key, value)
-hashnum ={
- :key => value
-}
- return hashnum
+{ key => value
 end
 
 def read_from_hash(hash, key)
